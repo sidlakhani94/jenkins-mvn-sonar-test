@@ -1,11 +1,11 @@
-sonar.login=admin
-    D sonar.password=admin
-      sonar.projectBaseDir=/var/lib/jenkins/workspace/jenkins-sonar/
+sonar.login=6b300c48510ba338e7d0ba82a771c286b7f28f7c
+    D sonar.password=
+      sonar.projectBaseDir=/var/lib/jenkins/workspace/SonarQube-V1/
         sonar.projectKey=sonarqubetest1
         sonar.projectName=project
         sonar.sourceEncoding=UTF-8
         sonar.language=java
-        sonar.sources=/var/lib/jenkins/workspace/jenkins-sonar/project/src/main
-        sonar.tests=/var/lib/jenkins/workspace/jenkins-sonar/project/src/test
+        sonar.sources=/var/lib/jenkins/workspace/SonarQube-V1/project/src/main
+        sonar.tests=/var/lib/jenkins/workspace/SonarQube-V1/project/src/test
         sonar.exclusions=vendor/**,resources/**,**/*.java
-        sonar.host.url=http://18.117.11.83:9000/
+        sonar.host.url=http://172.16.9.17:9000/
